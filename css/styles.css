@@ -343,7 +343,7 @@ img {
 }
 .social-link-icon:hover,
 .social-link-icon:focus {
-    background-color: var(--ocean);
+    background-color: #404bbf;
 }
 .social-icon {
     fill: var(--cloud);
@@ -398,8 +398,8 @@ img {
     gap: 120px;
 }
 .footer-container-logo {
-    margin-left: 120px;
     margin-right: 120px;
+    margin-left: 120px;
 }
 .footer-link {
     color: var(--brand-color-blue);
