@@ -357,10 +357,7 @@ img {
    justify-content: center;
    gap: 24px;
 }
-.cliens-etem {
-
-}
-.cliens-link {
+.clients-link {
     color: var(--lightslate);
     display: flex;
     width: 168px;
@@ -372,8 +369,8 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.cliens-link:focus,
-.cliens-link:hover {
+.clients-link:focus,
+.clients-link:hover {
     border-color: var(--ocean);
     color: var(--ocean);
     background-color: #404bbf;
@@ -383,7 +380,7 @@ img {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.cliens-link:hover .clients-icon {
+.clients-link:hover .clients-icon {
     fill: var(--brand-color-blue)
 }
 /* footer */
