@@ -354,7 +354,7 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.cliets-list {
+.clients-list {
    display: flex;
    justify-content: center;
    gap: 24px;
@@ -375,7 +375,7 @@ img {
 .clients-link:hover {
     border-color: var(--ocean);
     color: var(--ocean);
-    background-color: #404bbf;
+    background-color: var(--ocean);
 }
 .clients-icon {
     fill: currentColor;
