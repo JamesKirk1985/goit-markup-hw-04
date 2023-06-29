@@ -376,7 +376,7 @@ img {
 .cliens-link:hover {
     border-color: var(--ocean);
     color: var(--ocean);
-    background-color: #404bbf;;
+    background-color: #404bbf;
 }
 .clients-icon {
     fill: currentColor;
