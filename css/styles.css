@@ -148,6 +148,7 @@ img {
     rgba(46, 47, 66, 0.70),
     rgba(46, 47, 66, 0.70)),
     url(../images/people-office.jpg);
+    margin: 0 auto;
 }  
 .hero-title {
     color: #ffffff;
@@ -323,7 +324,9 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:24px;
+    gap:24px;   
+}
+.social-icon-etem {
     width: 40px;
     height: 40px;
 }
