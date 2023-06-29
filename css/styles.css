@@ -393,7 +393,11 @@ img {
 }
 .footer-container {
     display: flex;
+    align-items: baseline;
     gap: 120px;
+}
+.footer-container-logo {
+    margin-left: 120px;
 }
 .footer-link {
     color: var(--brand-color-blue);
@@ -419,11 +423,13 @@ img {
 }
 .title-social {
     margin-bottom: 16px;
+    font-weight: 500;
+    color: var(--white);
 }
 .social-icon-footer {
     display: flex;
     justify-content: flex-start;
-    gap: 24px;
+    gap: 16px;
     align-items: center;
 }
 /* main-portfolio */ 
