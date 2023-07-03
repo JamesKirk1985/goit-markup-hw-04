@@ -73,9 +73,12 @@ img {
     line-height: 24px;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--ocean);
+    color: var(--background-dark);
     padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.nav-link.active {
+    color: var(--ocean);
 }
 .nav-link.active::after {
     content:'';
@@ -375,7 +378,6 @@ img {
 .clients-link:hover {
     border-color: var(--ocean);
     color: var(--ocean);
-    background-color: var(--ocean);
 }
 .clients-icon {
     fill: currentColor;
@@ -480,20 +482,21 @@ img {
     border-radius: 4px;
     border: 1px solid var(--cornflower, #E7E9FC);
     padding: 12px 24px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.filters-list button:hover,
-.filters-list button:focus {
+.filters-list-button:hover,
+.filters-list-button:focus {
     color: #ffffff;
     background-color: #404BBF;
     border: 1px solid transparent;
     box-shadow:
-            0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-            0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-            0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+            0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+            0px 2px 1px 0px rgba(0, 0, 0, 0.08),
+            0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
 .images-title {
     font-weight: 500;
