@@ -519,7 +519,10 @@ img {
 }
 .link-card {
     display: block;
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow box-shadow:
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-card:hover {
@@ -566,6 +569,9 @@ img {
     letter-spacing: 0.32px;
 }
 .card-list-item:hover .overlay {
+    transform: translateY(0);
+}
+.card-list-item:hover .owerlay-text {
     transform: translateY(0);
 }
 .card-list-item:hover {
